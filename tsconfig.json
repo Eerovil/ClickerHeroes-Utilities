@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "outDir": "js"
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ],
+    "filesGlob": [
+        "ts/**/*.ts",
+        "!**/node_modules/**/*.ts"
+    ],
+    "files": [
+        "ts/index.ts",
+        "ts/lib/formulas.ts"
+    ]
+}

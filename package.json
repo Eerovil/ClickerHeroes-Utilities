@@ -1,0 +1,29 @@
+{
+  "name": "ch-util",
+  "version": "1.0.0",
+  "description": "Utility functions for creating calculators and tools for the game Clicker Heroes.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eerovil/ClickerHeroes-Utilities.git"
+  },
+  "keywords": [
+    "clicker",
+    "heroes",
+    "calculator",
+    "tool",
+    "formula",
+    "formulas",
+    "utility",
+    "utilities"
+  ],
+  "author": "Eero Vilpponen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eerovil/ClickerHeroes-Utilities/issues"
+  },
+  "homepage": "https://github.com/Eerovil/ClickerHeroes-Utilities#readme"
+}

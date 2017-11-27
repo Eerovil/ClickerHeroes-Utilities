@@ -4,7 +4,7 @@
   "description": "Utility functions for creating calculators and tools for the game Clicker Heroes.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r ts-node/register tests/**/*.spec.ts"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,16 @@
   "bugs": {
     "url": "https://github.com/Eerovil/ClickerHeroes-Utilities/issues"
   },
-  "homepage": "https://github.com/Eerovil/ClickerHeroes-Utilities#readme"
+  "homepage": "https://github.com/Eerovil/ClickerHeroes-Utilities#readme",
+  "dependencies": {
+    "bignumber.js": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.5",
+    "@types/mocha": "^2.2.44",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.1"
+  }
 }

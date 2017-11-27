@@ -2,7 +2,8 @@
     "compilerOptions": {
         "target": "ES6",
         "module": "commonjs",
-        "outDir": "js"
+        "outDir": "js",
+        "sourceMap": true
     },
     "exclude": [
         "node_modules",
@@ -14,6 +15,9 @@
     ],
     "files": [
         "ts/index.ts",
-        "ts/lib/formulas.ts"
+        "ts/lib/formulas.ts",
+        "ts/lib/ancients.ts",
+        "ts/lib/outsiders.ts",
+        "ts/typings/typings.d.ts"
     ]
 }

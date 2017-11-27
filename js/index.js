@@ -7,3 +7,4 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __export(require("./lib/formulas"));
 // Sample export of our own
 exports.bas = "123";
+//# sourceMappingURL=index.js.map
